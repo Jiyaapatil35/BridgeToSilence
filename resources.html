@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Homepage</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+	nav {
+            background-color: #444;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a.active {
+            background-color: #555;
+        }
+
+
+
+        #resources {
+            background-color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        #resources h2 {
+            font-size: 36px;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .resource {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .resource:hover {
+            transform: translateY(-10px);
+        }
+
+        .resource img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .resource-description {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .download-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+
+        .attribution {
+            font-size: 12px;
+            color: #888;
+            margin-top: 10px;
+        }
+
+	footer {
+            background: linear-gradient(to right, #555, #333);
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="aboutUs.html">About Us</a>
+        <a href="#" class="active">Resources</a>
+    </nav>
+
+    <section id="resources">
+        <h2>Explore Our Resources</h2>
+
+        <!-- Resource 1 -->
+        <div class="resource">
+            <img src="https://img.freepik.com/free-photo/portrait-woman-teaching-sign-language_23-2148719750.jpg" alt="Resource 1 Image">
+            <p class="resource-description">PDF with American Sign Language. Comprehensive guide for sign language communication.</p>
+            <a href="https://drive.google.com/file/d/1nDh2KMKsTkWoHfDYdXp5_cMAcJScgo5y/view?usp=sharing" download>
+                <button class="download-button">Download PDF with American Sign Language</button>
+            </a>
+            <p class="attribution">Image by <a href="https://www.freepik.com/free-photo/portrait-woman-teaching-sign-language_23-2148719750.jpg">Freepik</a></p>
+        </div>
+
+        <!-- Resource 2 -->
+        <div class="resource">
+            <img src="https://img.freepik.com/free-photo/collage-inspiration-motivational-image_23-2150569804.jpg" alt="Resource 2 Image">
+            <p class="resource-description">Document to Motivate and Inspire Deaf People. Inspirational stories and messages of encouragement.</p>
+            <a href="https://drive.google.com/file/d/16-8IlduatZu8JnnU-sOmLftgAZqaXZgM/view?usp=sharing" download>
+                <button class="download-button">Download Document to Motivate and Inspire Deaf People</button>
+            </a>
+            <p class="attribution">Image by <a href="https://www.freepik.com/free-photo/collage-inspiration-motivational-image_23-2150569804.jpg">Freepik</a></p>
+        </div>
+
+        <!-- Resource 3 -->
+        <div class="resource">
+            <img src="https://img.freepik.com/free-photo/business-teamwork-join-hands-together-business-teamwork-concept_1150-1804.jpg" alt="Resource 3 Image">
+            <p class="resource-description">Guide: How to Support a Deaf Person. Practical tips and insights on providing support.</p>
+            <a href="https://www.yorksj.ac.uk/media/content-assets/academic-development/documents/SuggestedTeachingStrategiestousewithDdeafandhardofhearingStudents.pdf">
+			<button class="download-button">Download Guide: How to Support a Deaf Person</button>
+            </a>
+            <p class="attribution">Image by <a href="https://www.freepik.com/free-photo/business-teamwork-join-hands-together-business-teamwork-concept_1150-1804.jpg">Freepik</a></p>
+        </div>
+    </section>
+
+	<footer>
+        <p>&copy; 2023 Bridge to Silence</p>
+    </footer>
+</body>
+
+</html>

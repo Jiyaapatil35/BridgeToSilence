@@ -1,6 +1,6 @@
 # Bridge to Silence – Real-World Impact Project Reaching 150+ Users
 
-This repository contains the implementation of the **Bridge to Silence** project — a web-based platform developed to support over 150 students at a school for the deaf and hard of hearing. The initiative was carried out during the **1st Semester (Sept 2023 – Jan 2024)** as part of a real-world community impact effort, aimed at fostering inclusivity and improving communication accessibility.
+This repository contains the implementation of the **Bridge to Silence** project — a web-based platform developed to support over 150 students at a school for the deaf and speech impairment. The initiative was carried out during the **1st Semester (Sept 2023 – Jan 2024)** as part of a real-world community impact effort, aimed at fostering inclusivity and improving communication accessibility.
 
 ## Project Overview
 **Timeline:** September 2023 – January 2024  

@@ -1,9 +1,9 @@
 # Bridge to Silence – Real-World Impact Project Reaching 150+ Users
 
-This repository contains the implementation of the **Bridge to Silence** project — a web-based platform developed to support over 150 students at a school for the deaf and speech impairment. The initiative was carried out during the **1st Semester (Sept 2023 – Jan 2024)** as part of a real-world community impact effort, aimed at fostering inclusivity and improving communication accessibility.
+This repository contains the implementation of the Bridge to Silence project — a web-based platform developed to support over 150 students at a school for the deaf and speech impairment. The initiative was carried out during the 1st Semester (Sept 2023 – Jan 2024) as part of a real-world community impact effort, aimed at fostering inclusivity and improving communication accessibility. **The platform received positive feedback from both teachers and students for its usability and positive impact on engagement.**
 
 ## Project Overview
-**Timeline:** September 2023 – January 2024  
+**Timeline:**  1st Semester | September 2023 – January 2024  
 **Team Size:** 5 Members  
 **Objective:** Create a website centered around **American Sign Language (ASL)** to bridge communication gaps, enhance accessibility, and foster an inclusive learning environment for deaf and hard of hearing students.  
 **Impact:** Directly benefited 150+ students by improving access to educational resources in a more inclusive format.
@@ -14,9 +14,9 @@ This repository contains the implementation of the **Bridge to Silence** project
 - Deployed the platform online using GitHub Pages for easy access.
 
 ## Technologies Used
-- **HTML**
-- **CSS**
-- **GitHub Pages** (for deployment)
+- HTML
+- CSS
+- GitHub Pages (for deployment)
 
 ## Achievements
 - Successfully reached and supported **150+ students** in a real-world educational setting.
@@ -29,6 +29,8 @@ This repository contains the implementation of the **Bridge to Silence** project
 - Accessibility Implementation
 - Team Collaboration
 - Community Engagement
+- Agile Methodology (Scrum)
+- Sprint Planning & Iterative Development
 
 ## Website Link
 [Bridge to Silence](https://bridgetosilence.github.io/BridgeToSilence/)
